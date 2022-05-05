@@ -1,0 +1,88 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--orange);
+    
+    margin: 64px;
+    padding: 8px;
+}
+
+.skills h1{
+    text-align: center;
+    margin-top: 8px;
+    font-size: calc(16px + 1vw);
+    color: var(--orange);
+}
+
+.skillCardContainer{
+    display: flex;
+    margin-top: 16px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.skillCardContainer > *{
+    margin:0 16px;
+}
+
+
+.skillJS{
+    color: #FFD185;
+    
+    
+}
+
+.skillTS{
+    color: var(--blue);
+}
+
+.skillRJ{
+    color: blueviolet;
+
+}
+
+.skillPG{
+    color: #248EC7;
+}
+
+.skillNJS{
+    color: #77B85E;
+}
+
+.skillEX{
+    color: rgb(255, 52, 52);
+}
+
+.skillNEST{
+    color: var(--magenta);
+}
+
+.skillHTML{
+    color:var(--orange)
+}
+
+.skillGH{
+    color: aliceblue;
+}
+
+.skillCSS{
+    color: #2eadf1;
+}
+
+.skillSequelize{
+    color: deepskyblue;
+}
+
+@media screen and (max-width:600px) {
+    .skillCardContainer{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .skillCardContainer > *{
+        width: 180px;
+        display: flex;
+        justify-content: center;
+    }
+}

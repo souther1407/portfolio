@@ -1,0 +1,19 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px 0px;
+    background-color: var(--bg);
+}
+
+
+.btnAboutMe{
+    color: var(--magenta);
+}
+
+.btnSkills{
+    color: var(--orange);
+}
+
+.btnProyects{
+    color:var(--blue)
+}

@@ -1,0 +1,54 @@
+.footer{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    padding: 16px;
+    background-color: black;
+    z-index: 5;
+    justify-content: space-around;
+}
+
+.btnLinkedln{
+    color: aliceblue;
+    /* font-size: calc(1rem); */
+}
+
+.btnLinkedln :first-child{
+    font-size: 2rem;
+    color: dodgerblue;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.btnLinkedln :first-child div{
+    width: 75%;
+    position: absolute;
+    left: 13%;
+    background-color: aliceblue;
+    height: 75%;
+    z-index: -1;
+}
+
+.btnGithub{
+    color: aliceblue;
+}
+
+
+.btnGithub :first-child{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.btnEmail{
+    color: aliceblue;
+}
+
+.btnEmail :first-child{
+    font-size: 2rem;
+    color: var(--green);
+}
