@@ -1,0 +1,90 @@
+
+.proyects{
+    border: 1px solid var(--blue);
+    display: flex;
+    margin: 64px;
+    flex-direction: column;
+    padding: 8px;
+}
+
+.proyects h1{
+    text-align: center;
+    font-size: calc(16px + 1vw);
+    color: var(--blue);
+    margin-bottom: 32px;
+
+}
+
+
+.listProyects{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.listProyects > *{
+    margin-bottom: 32px;
+}
+
+.gitHub,.deploy{
+    color: aliceblue;
+    border: 1px solid rgba(240, 248, 255, 0.212);
+    border-radius: 50px;
+    padding: 8px;
+    background-color: black;
+    margin-right: 8px;
+}
+
+.deploy{
+    color: aliceblue;
+    border: 1px solid rgba(240, 248, 255, 0.212);
+    border-radius: 50px;
+    padding: 8px;
+    background-color: green;
+}
+
+
+.skillJS{
+    color: #FFD185;
+}
+
+.skillTS{
+    color: var(--blue);
+}
+
+.skillRJ{
+    color: blueviolet;
+
+}
+
+.skillPG{
+    color: #248EC7;
+}
+
+.skillNJS{
+    color: #77B85E;
+}
+
+.skillEX{
+    color: rgb(255, 52, 52);
+}
+
+.skillNEST{
+    color: var(--magenta);
+}
+
+.skillHTML{
+    color:var(--orange)
+}
+
+.skillGH{
+    color: aliceblue;
+}
+
+.skillCSS{
+    color: #2eadf1;
+}
+
+.skillSequelize{
+    color: deepskyblue;
+}

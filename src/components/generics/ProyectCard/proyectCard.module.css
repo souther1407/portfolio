@@ -1,0 +1,46 @@
+
+.proyectCard{
+    display: flex;
+    box-shadow: 2px 2px 50px #0a192b;
+    padding: 4px;
+
+}
+
+.proyectImg{
+    flex-basis: 50%;
+}
+
+.proyectInfo{
+    flex-basis: 50%;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.proyectInfo > *{
+    margin-bottom: 16px;
+}
+
+.proyectTechs{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.links{
+    display: flex;
+}
+.linkDeploy{
+    background-color: var(--green);
+}
+a{
+    text-decoration: none;
+}
+
+@media screen and (max-width:800px) {
+    .proyectCard{
+        flex-direction: column;
+    }
+}
