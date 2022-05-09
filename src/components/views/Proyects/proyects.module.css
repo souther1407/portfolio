@@ -1,16 +1,24 @@
 
 .proyects{
-    border: 1px solid var(--blue);
+    border: 1px solid var(--blueDark);
     display: flex;
-    margin: 64px;
+    margin: 64px 64px 0 64px;
     flex-direction: column;
+    transition: all .5s;
     padding: 8px;
+    color: var(--blueDark);
+}
+
+.iluminar{
+    border: 1px solid var(--blue);
+    box-shadow: 1px 1px 5px var(--blue);
+    color: var(--blue);
 }
 
 .proyects h1{
     text-align: center;
     font-size: calc(16px + 1vw);
-    color: var(--blue);
+    
     margin-bottom: 32px;
 
 }
@@ -24,6 +32,7 @@
 
 .listProyects > *{
     margin-bottom: 32px;
+    color: rgb(224, 224, 224);
 }
 
 .gitHub,.deploy{
@@ -87,4 +96,10 @@
 
 .skillSequelize{
     color: deepskyblue;
+}
+
+@media screen and (max-width:600px) {
+    .proyects{
+        margin: 64px 0;
+    }
 }

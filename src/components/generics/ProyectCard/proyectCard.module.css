@@ -10,6 +10,13 @@
     flex-basis: 50%;
 }
 
+.proyectCard h2{
+    font-size: calc(16px + 1vw);
+}
+.proyectCard p{
+    font-size: calc(8px + 1vw);
+}
+
 .proyectInfo{
     flex-basis: 50%;
     padding: 0 16px;
@@ -32,6 +39,7 @@
 .links{
     display: flex;
 }
+
 .linkDeploy{
     background-color: var(--green);
 }
@@ -42,5 +50,12 @@ a{
 @media screen and (max-width:800px) {
     .proyectCard{
         flex-direction: column;
+    }
+    .links{
+        flex-direction: column;
+        align-items: center;
+    }
+    .links > *{
+        margin-bottom: 8px;
     }
 }

@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect,useState} from 'react'
 import ProyectCard from '../../generics/ProyectCard/ProyectCard'
 import styles from './proyects.module.css'
 
@@ -9,7 +9,7 @@ import imgSoyHostel from "../../../public/img/soyHostel.png"
 import {DiJavascript1,DiReact} from "react-icons/di"
 import {SiTypescript,SiExpress,SiSequelize,SiPostgresql} from "react-icons/si"
 
-const Proyects = () => {
+const Proyects = ({ posScroll }) => {
 
   //  -------------------------------- APP recipies --------------------------------------------
   const titleAppRecipies = "Recipies App"
@@ -54,8 +54,19 @@ const Proyects = () => {
   const linkGithubSoyHostel = "https://github.com/souther1407/Back-End-PF"
   const linkDeploySoyHostel = "https://soyhostel.com"
 
+
+  
+  
+  const [aboutMeHeight,setAboutMeHeight] = useState(0)
+  const [skillsHeight,setSkillsHeight] = useState(0)
+  useEffect(() => {
+    setAboutMeHeight(document.getElementById("AboutMe").offsetHeight)
+    setSkillsHeight(document.getElementById("Skills").offsetHeight)
+  },[])
+
   return (
-    <div className={styles.proyects}>
+    <div id='Proyects'
+     className={`${styles.proyects} ${posScroll > aboutMeHeight+skillsHeight ? styles.iluminar : ""}`}>
         <h1>Proyects</h1>
         <div className={styles.listProyects}>
 

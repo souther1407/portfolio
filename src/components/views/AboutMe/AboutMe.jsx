@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useEffect,useState } from 'react'
 import styles from './aboutMe.module.css'
 
-const AboutMe = ({className}) => {
+const AboutMe = ({posScroll}) => {
+
+  const [height,setHeight] = useState(0)
+
+  useEffect(() => {
+    setHeight(document.getElementById("AboutMe").offsetHeight)
+  },[])
+  
   return (
-    <div className={`${styles.aboutMe}` }>
+    <div id="AboutMe" className={`${styles.aboutMe} ${posScroll <= height ? styles.iluminar : ""}` }>
         <h1>About Me</h1>
         <div className={styles.profileAndDesc}>
             <div>

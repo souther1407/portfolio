@@ -1,4 +1,6 @@
 .portfolio{
     background-color: var(--bg);
     color: var(--white);
+    height: auto;
+    padding: 16px;
 }

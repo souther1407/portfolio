@@ -8,9 +8,16 @@ import {BsFillBriefcaseFill} from "react-icons/bs"
 const Nav = () => {
   return (
     <nav className={styles.nav}>
+      <a href='#AboutMe'>
         <ButtonIcon text="About me" icon={<FaUserCircle fontSize="32px"/>} className={styles.btnAboutMe}/>
+      </a>
+      <a href='#Skills'>
         <ButtonIcon text="Skills" icon={<AiFillStar fontSize="32px"/>} className={styles.btnSkills}/>
+
+      </a>
+      <a href='#Proyects'>
         <ButtonIcon text="Proyects" icon={<BsFillBriefcaseFill fontSize="32px"/>} className={styles.btnProyects}/>
+      </a>
     </nav>
   )
 }

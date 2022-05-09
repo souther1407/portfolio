@@ -4,15 +4,28 @@
     padding: 8px;
     flex-direction: column;
     height: 50vh;
-    border: 1px solid var(--magenta);
+    border: 1px solid var(--magentaDark);
     border-radius: 4px;
+    transition: all .5s;
+    color:var(--magentaDark);
 }
 
+.iluminar{
+    border: 1px solid var(--magenta);
+    box-shadow: 1px 1px 5px var(--magenta);
+    color:var(--magenta);
+    
+}
+
+.aboutMe p{
+    color: aliceblue;
+}
 .aboutMe h1{
     text-align: center;
     font-size: calc(16px + 1vw);
-    color:var(--magenta)
+    
 }
+
 
 .profileAndDesc{
     display: flex;
@@ -43,6 +56,7 @@
 @media screen and (max-width: 650px) {
     .aboutMe{
         height: auto;
+        margin: 64px 0;
     }
     .profileAndDesc{
         flex-direction: column;
