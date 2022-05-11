@@ -17,6 +17,7 @@
     
 }
 
+
 .aboutMe p{
     color: aliceblue;
 }
@@ -40,10 +41,17 @@
     display: flex;
     justify-content: center;
 }
+
+.imgContainer{
+    position: relative;
+    z-index: 10;
+    
+}
 .profileAndDesc img{
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
+   position: relative;
+   width: 120px;
+   height: 120px;
+   border-radius: 50%;
 }
 
 .profileAndDesc p{

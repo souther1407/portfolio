@@ -21,6 +21,7 @@ const Skills = ({posScroll}) => {
     window.addEventListener("resize", setHeights)
     return () => window.removeEventListener("resize",setHeights)
   },[])
+  
   return (
     <div id='Skills' 
     className={`${styles.skills} ${posScroll > aboutMeHeight && posScroll < aboutMeHeight+height ? styles.iluminar : "" }`}>

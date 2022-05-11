@@ -1,15 +1,60 @@
-<svg width="410" height="404" viewBox="0 0 410 404" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M399.641 59.5246L215.643 388.545C211.844 395.338 202.084 395.378 198.228 388.618L10.5817 59.5563C6.38087 52.1896 12.6802 43.2665 21.0281 44.7586L205.223 77.6824C206.398 77.8924 207.601 77.8904 208.776 77.6763L389.119 44.8058C397.439 43.2894 403.768 52.1434 399.641 59.5246Z" fill="url(#paint0_linear)"/>
-<path d="M292.965 1.5744L156.801 28.2552C154.563 28.6937 152.906 30.5903 152.771 32.8664L144.395 174.33C144.198 177.662 147.258 180.248 150.51 179.498L188.42 170.749C191.967 169.931 195.172 173.055 194.443 176.622L183.18 231.775C182.422 235.487 185.907 238.661 189.532 237.56L212.947 230.446C216.577 229.344 220.065 232.527 219.297 236.242L201.398 322.875C200.278 328.294 207.486 331.249 210.492 326.603L212.5 323.5L323.454 102.072C325.312 98.3645 322.108 94.137 318.036 94.9228L279.014 102.454C275.347 103.161 272.227 99.746 273.262 96.1583L298.731 7.86689C299.767 4.27314 296.636 0.855181 292.965 1.5744Z" fill="url(#paint1_linear)"/>
-<defs>
-<linearGradient id="paint0_linear" x1="6.00017" y1="32.9999" x2="235" y2="344" gradientUnits="userSpaceOnUse">
-<stop stop-color="#41D1FF"/>
-<stop offset="1" stop-color="#BD34FE"/>
-</linearGradient>
-<linearGradient id="paint1_linear" x1="194.651" y1="8.81818" x2="236.076" y2="292.989" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FFEA83"/>
-<stop offset="0.0833333" stop-color="#FFDD35"/>
-<stop offset="1" stop-color="#FFA800"/>
-</linearGradient>
-</defs>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="dibujo.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.45718617"
+     inkscape:cx="-33.903038"
+     inkscape:cy="562.13424"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="star"
+       style="fill:#ffc200;fill-opacity:1"
+       id="path1354"
+       inkscape:flatsided="false"
+       sodipodi:sides="5"
+       sodipodi:cx="155.29779"
+       sodipodi:cy="424.33481"
+       sodipodi:r1="348.82349"
+       sodipodi:r2="174.41174"
+       sodipodi:arg1="0.98627197"
+       sodipodi:arg2="1.6145905"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 347.77956,715.24475 147.66201,598.57932 -61.893869,697.29196 -12.778176,470.91727 -171.4158,302.12166 59.056907,278.87984 170.56934,75.845778 263.89362,287.85623 491.44972,331.16989 318.65459,485.44138 Z"
+       transform="matrix(0.26970267,0,0,0.26548843,-30.395006,34.833478)"
+       inkscape:transform-center-x="-1.2727751"
+       inkscape:transform-center-y="-7.6432932" />
+  </g>
 </svg>
