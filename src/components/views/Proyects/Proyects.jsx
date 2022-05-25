@@ -33,7 +33,7 @@ const Proyects = ({ posScroll }) => {
     { name:"ReactJS", icon: <DiReact />, style: styles.skillRJ},
   ]
   const linkGithubCrytoDashboard = "https://github.com/souther1407/cryptoDashboard"
-  const linkDeployCrytoDashboard = "https://prueba1407.000webhostapp.com/"
+  const linkDeployCryptoDashboard = "https://crypto-dashboard-sooty.vercel.app"
 
 
 
@@ -65,9 +65,9 @@ const Proyects = ({ posScroll }) => {
   },[])
 
   return (
-    <div id='Proyects'
+    <div id='Projects'
      className={`${styles.proyects} ${posScroll > aboutMeHeight+skillsHeight ? styles.iluminar : ""}`}>
-        <h1>Proyects</h1>
+        <h1>Projects</h1>
         <div className={styles.listProyects}>
 
         <ProyectCard 
@@ -98,7 +98,7 @@ const Proyects = ({ posScroll }) => {
             techs={techAppCryptoDashboard}
             link={linkGithubCrytoDashboard}
             linkStyle={styles.gitHub}
-            deployLink={linkDeployCrytoDashboard}
+            deployLink={linkDeployCryptoDashboard}
             deployLinkStyle={styles.deploy}
           />
 

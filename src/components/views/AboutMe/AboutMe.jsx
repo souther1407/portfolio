@@ -13,11 +13,11 @@ const AboutMe = ({posScroll}) => {
   return (
     <div id="AboutMe" className={`${styles.aboutMe} ${posScroll <= height ? styles.iluminar : ""}` }>
         <h1>About Me</h1>
-        <div className={styles.profileAndDesc}>
-            <p>"Hi, I'm Eric, I'm a Full Stack Developer with experience focused on Back end,<br></br>
+        <p>"Hi 👋, I'm Eric, I'm a Full Stack Developer with experience focused <br/> on Back end,
+          I like resolve problems and facing new challenges<br/>
                please, enjoy my portfolio,
               I made it with love :P"</p>
-        </div>
+        
     </div>
   )
 }

@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from './buttonIcon.module.css'
-const ButtonIcon = ({text,icon,className,onClick}) => {
+const ButtonIcon = ({text,icon,className,onClick,name}) => {
   return (
-    <button onClick={onClick} className={`${styles.button} ${className}`}>
+    <button name={name} onClick={onClick} className={`${styles.button} ${className}`}>
         {icon}
         <span>{text}</span>
     </button>

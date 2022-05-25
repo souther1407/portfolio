@@ -6,18 +6,24 @@ import {AiFillStar} from "react-icons/ai"
 import {BsFillBriefcaseFill} from "react-icons/bs"
 
 const Nav = () => {
+
+  const handleClick = (nombre) => { 
+    console.log(nombre)
+    const target = document.getElementById(nombre); 
+    target.scrollIntoView({ behavior: 'smooth' }); 
+  };
+
   return (
     <nav className={styles.nav}>
-      <a href='#AboutMe'>
-        <ButtonIcon text="About me" icon={<FaUserCircle fontSize="32px"/>} className={styles.btnAboutMe}/>
-      </a>
-      <a href='#Skills'>
-        <ButtonIcon text="Skills" icon={<AiFillStar fontSize="32px"/>} className={styles.btnSkills}/>
-
-      </a>
-      <a href='#Proyects'>
-        <ButtonIcon text="Proyects" icon={<BsFillBriefcaseFill fontSize="32px"/>} className={styles.btnProyects}/>
-      </a>
+     
+        <ButtonIcon text="About me" name="AboutMe" icon={<FaUserCircle fontSize="32px"/>} className={styles.btnAboutMe} onClick={() =>handleClick("AboutMe")}/>
+      
+      
+        <ButtonIcon text="Skills" name="Skills" icon={<AiFillStar fontSize="32px"/>} className={styles.btnSkills} onClick={() =>handleClick("Skills")}/>
+     
+      
+        <ButtonIcon text="Projects" name="Projects" icon={<BsFillBriefcaseFill fontSize="32px"/>} className={styles.btnProyects} onClick={() =>handleClick("Projects")}/>
+      
     </nav>
   )
 }
